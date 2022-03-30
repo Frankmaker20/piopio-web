@@ -1,0 +1,115 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#todo{
+    padding-left: 400px;
+    background-attachment: fixed;   /*hacer que la imagen se quede fija*/
+    background-image: url(Imagenes/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagentitulo{
+    padding: 3%;
+    text-align: center;
+}
+.menu{
+    
+    padding: 1%;
+    background-image:url(Imagenes/menu.jpg);
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: red;
+    text-align: center;     /*centrar el texto*/
+    margin:1%;              /*separacion de texto*/
+    grid-area: 1 / 2 / 2 / 4;
+}
+.menu a{
+    transition: all ease-out 0.2s;                                              /*transition: all ease-out 0.2s;*/ /*colocar en el menu a*/
+    color: black;
+    text-decoration: none;  /*quitar linea*/
+    font-size: 25px;       /* tamaño de letra*/
+    margin-right: 5px;   /*separacion de entrelineas*/
+}
+.menu p{
+    color: black;
+    margin-right: 10px;
+    display: inline-block;
+}
+.menu a:hover{
+    padding: 5px;  /*para darle espaciado al pasar el raton por el menú*/
+    opacity: 50%; /*colocarle sombra al pasar el mouse*/
+    background-color: rgba(255, 255, 255, 0.712);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);                           /*box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);*/
+    transform: scale(1.1);    
+    border-radius: 6px;                                             /*transform: scale(1.1);*/ /*colocar en el hover*/
+}
+header{
+    width: 1000px
+}
+.imagensub{
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.imagensub img{
+    border-color: black;
+    border-style: solid;
+    border-radius: 2px;
+}
+h2{
+    color: whitesmoke;
+    margin-top: -230px;
+}
+.imagensub1{
+    padding-left: 400px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.cajamedia{
+    display: grid;
+    grid-template-columns: repeat(2, 500px) repeat(3, 0);
+    grid-template-rows: 70% repeat(4, 0);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.mitad{
+    height: 50px;
+    
+}
+.texto1{
+    padding: 20px;
+    color: white;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.cajabaja{
+    margin-top: 27%;
+    width: 1000px;
+    color: white;
+    border-radius: 20px;
+    
+}
+.imagen1{
+    padding: 20px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+.cajotamedia{
+    border-radius: 20px;
+    width: 1000px;
+    margin-top: 25%;
+    background-color: rgba(78, 73, 72, 0.384);
+}
+.subtitulo1{
+    font-size: 35px;
+    padding: 10px;
+   text-align: center;
+
+}
+.subtitulo2{
+    font-size: 35px;
+    padding: 2%;
+}
+.textobaja{
+    padding: 0% 2% 2% 2%;
+}
